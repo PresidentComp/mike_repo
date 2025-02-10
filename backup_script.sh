@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Определяем директории для резервного копирования
-BACKUP_DIR="/archive"
+BACKUP_DIR="/backup"
 LOG_DIR="/var/log"
 HOME_DIR="/home"
 SSH_CONFIG_FILE="/etc/ssh/sshd_config"
