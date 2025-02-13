@@ -1,0 +1,19 @@
+---
+- name: Install packages on Yudenkov group
+  hosts: Yudenkov
+  become: yes
+  tasks:
+    - name: Install cmatrix
+      apt:
+        name: cmatrix
+        state: present
+
+    - name: Install cowsay
+      apt:
+        name: cowsay
+        state: present
+
+    - name: Install sl
+      apt:
+        name: sl
+        state: present
